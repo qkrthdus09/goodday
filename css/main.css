@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+.mainSlider{
+    position: relative;
+    height: 900px;
+    background: url(../images/main/goodday_Bg.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.title{
+    padding-top: 17%;
+    padding-left: 5%;
+    width: 48%;
+    z-index: 2;
+}
+.title img{
+    width: 100%;
+}
+
+.shapTit{
+    width: 25%;
+    margin-left: 49%;
+    margin-top: -18%;
+}
+.shapTit img{
+    width: 100%;
+}
+
+.mainSliderWon{
+    width: 95%;
+    float: right;
+    margin-top: 5%;
+    position: relative;
+    background:url(../images/common/goodday_mainSliderBg.png) no-repeat right center;
+    background-size:95%;
+    
+}
+.mainSliderImg img{
+    width:100%;
+}
+.sidListWrap{
+    float:right;
+    padding-bottom:330px;
+}
+.sidListWrap a{color:#fff;}
+.dot img{
+    width:30%;
+}
+.sidList p{
+    background:url(../images/common/goodday_yellow.png) no-repeat;
+    background-size:15px;
+    padding-left:15px;
+    padding-top:5px;
+}
+.listP{
+}
+.wonWon li{
+    width: 5px;
+    height: 5px;
+    background: #ededed;
+    border-radius: 50px;
+    text-indent: -9999px;
+    margin: 7px 0;
+}
+
+
+
+/*maonCon01*/
+.mainCon01{
+    position: relative;
+}
+.con01Tit{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10%;
+    margin-top: -100%;
+}
+.con01Tit p{
+    color: #063391;
+    font-size: 24px;
+    font-weight: 600;
+}
+.con01Tit span{
+    background: #063391;
+    color: #fff;
+    font-size: 25px;
+    padding: 0 7px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.con01List{
+    display: flex;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.con01ListImg{
+    position:absolute;
+    width: 100%;
+    z-index: 1;
+    top: 20%;
+}
+.con01ListImg img{
+    width:60px;
+}
+.listImg1{
+    position:absolute;
+    top:28px;
+    left:7px;
+}
+.listImg1 img{}
+
+.soju{
+    position:absolute;
+    top:28px;
+    left:7px;
+}
+.soju2{
+    position:absolute;
+    top: 40px;
+    right: 9px;
+}
+.listImg2{
+    position:absolute;
+    top: 40px;
+    right: 9px;
+}
+.listImg2 img{
+
+}
+
+
+
+.sojuTit{
+    display: block;
+    margin-left: 10%;
+    width:90%;
+    background: #E9EAF4;
+    font-size: 8px;
+    margin-top: 40%;
+    padding:5% 0;
+    padding-left: 19%;
+    color: #273397;
+    font-weight: 400;
+    box-sizing: border-box;
+    
+}
+.bold{
+    font-weight: bold;
+    display: block;
+}
+.sojuTit span{
+    display: block;
+    font-size: 15px;
+}
+.sojuTit p{
+    display: block;
+}
+
+.handTit{
+    text-align: right;
+    background: #273397;
+    color: #fff;
+    padding-right: 20%;
+    padding-left: 0%;
+    margin-right: 7%;
+    margin-left: 0%;
+}
+
+
+.verScnd{
+    margin-bottom: 40%;
+    margin-top: -43%;
+}
+
+
+.con01List.verScnd{
+    flex-direction: row-reverse;
+    margin-left: -10%;
+}
+
+
+
+
+
+
+
+
+/*mainCon02*/
+.mainCon02{
+    position: relative;
+    margin-top: 30%;
+}
+.con02Title{
+    width: 106px;
+    height: 29px;
+    line-height: 34px;
+    background: url(../images/main/goodday_chapter.png) no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.con02Title p{
+    margin: 0 10%;
+}
+
+.SubTit{
+    color: #26368c;
+    font-size: 25px;
+    margin-left: 5%;
+    line-height: 120%;
+    
+    
+}
+.SubTit p{}
+.SubTit span{
+    display: block;
+    font-weight: bold;
+}
+
+.con02Img{
+    width: 50%;
+    position: absolute;
+    top: 12%;
+    right: 5%;;
+    
+}
+.con02Img img{
+    width: 100%;
+}
+
+.con02Info{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 20%;
+    font-size: 10px;
+    color: #273397;
+    font-weight: 400;
+}
+.con02Info span{
+    display: block;
+}
+
+
+/*mainCon03*/
+
+.mainCon03{
+    height: 100%;
+    background: url(../images/main/goodday_mainCon03Bg.png) no-repeat;
+    background-size: 125%;
+    padding-bottom: 25%;
+    
+}
+
+.con02Title2{
+    width: 121px;
+    height: 29px;
+    line-height: 29px;
+    background: url(../images/main/goodday_chapter2.png) no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.con02Title2 p{
+    margin: 0 10%;
+}
+
+.con03{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.con03Img{
+    margin-top: 10%;
+}
+.con03Img li{
+    display: block;
+}
+.con03Img li img{
+    width: 100%;
+}
+.con03Sj{
+    width: 30%;
+}
+.con03Sj img{
+    width: 100%;
+    margin-top: -100%;
+}
+
+.con03Info{
+    text-align: center;
+    margin-left: 0;
+    margin-top: -10%;
+    margin-bottom: 0;
+
+}
+
+/*mainCon04*/
+
+.mainCon04{}
+.mainCon04 .con03{
+    margin-top: 28%;
+    margin-bottom: 10%;
+}
+.con04Img{
+    background: url(../images/main/goodday_mainCon04Bg.png) no-repeat center center;
+    background-size: cover;
+}
+.con04Img li{
+    text-align: center;
+}
+.con04Img li img{
+    width: 50%;
+    
+}
+
+.mainCon04 .con03Info{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+.con03Info{display: block;}
+.con03Info span{display: inline-block;}
+
+/*mainCon05*/
+.mainCon05{
+    background: url(../images/main/goodday_mainCon05Bg.png) no-repeat 0 300px;
+    background-size: 100%;
+}
+
+.mainCon05 .con03{}
+
+.con05Img{
+    padding-top: 10%;
+    text-align: center;
+}
+.con05Img li{
+    width: 20%;
+    display: inline-block;
+    margin-right: 8%;
+    
+    
+}
+.con05Img li:last-child{
+    margin-right: 0;
+}
+
+.con05Img .red{
+    width: 33%;
+    vertical-align: -300%;
+    
+}
+.con05Img .red img{
+    display: inline-block;
+    
+}
+.con05Img li img{
+    width: 100%;
+}
+
+.con05{
+    margin-top: 30%;
+    font-size: 11px;
+    font-weight: 400;
+}
+.con05 li{}
+.con05 li .listTit{
+    font-size: 25px;
+    line-height: 120%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.con05 li p{
+    line-height: 140%;
+}
+.con05 li span{}
+
+.allBtn{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    background: #26348D;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+}
+.allBtn p{
+    display: block;
+    color: #fff;
+}
+
+
+.allow span{
+    float:right;
+    margin-top: 3px;
+    margin-right: 3px;
+    width: 29px;
+    height: 29px;
+    background: #fff;
+    border-radius: 50%;
+    text-indent: -9999px;
+    background: #fff url(../images/main/goodday_allow.png) no-repeat center center;
+    background-size: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
